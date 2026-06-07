@@ -1,0 +1,26 @@
+{
+  "name": "lafnager-dev/laramap",
+  "description": "Laravel CLI tool that visualizes database structure as a map.",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.3",
+    "illuminate/support": "^10.0|^11.0|^12.0|^13.0",
+    "illuminate/console": "^10.0|^11.0|^12.0|^13.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Laramap\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Laramap\\LaramapServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
